@@ -1,0 +1,56 @@
+.widgets {
+    position: sticky;
+    top: 80px;
+    flex: 0.3;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    height: fit-content;
+    margin: 20px auto;
+     
+}
+
+.widgets__header {
+    display: flex;
+    align-item: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.widgets__header > h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.widgets__article {
+    display: flex;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.widgets__article:hover {
+    background-color: lightgray;
+}
+
+.widgets__articleLeft {
+    color: #0177b7;
+    margin: 0 5px;
+}
+
+.widgets__articleLeft > .FiberManualRecordIcon {
+    font-size: 15px;
+}
+
+.widgets__articleRight {
+    flex: 1;
+}
+
+.widgets__articleRight > h4 {
+    font-size: 14px;
+}
+
+.widgets__articleRight > p {
+    font-size: 12px;
+    color: gray;
+} 
+
