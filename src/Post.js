@@ -13,6 +13,7 @@ import SendOutlinedIcon from '@mui/icons-material/SendOutlined';
 
 // add forwardRef after finishing Post display setup and before using react animation flipMove **//
 const Post = forwardRef(({ name, description, message, photoUrl }, ref) => {
+    
     return (
         <div ref={ref} className='post'>
             <div className='post__header'>

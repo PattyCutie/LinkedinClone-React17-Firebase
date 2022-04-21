@@ -95,7 +95,7 @@ function Login() {
             </form>
             <p>
                 Not a member ?{" "}
-                <span className="login__register" onClick={register}>
+                <span className="login__register" onClick={register} rel="noreferer">
                     Register Now :)
                 </span>
             </p>

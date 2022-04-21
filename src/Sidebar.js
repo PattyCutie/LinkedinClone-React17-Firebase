@@ -20,7 +20,7 @@ function Sidebar() {
         <div className='sidebar'>
             <div className="sidebar__top">
                 <img src="https://scontent.fpoz6-1.fna.fbcdn.net/v/t1.18169-9/12573709_861836310581051_3410657605001504107_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=19026a&_nc_ohc=YDKUrZC1JJEAX9zugjh&_nc_ht=scontent.fpoz6-1.fna&oh=00_AT9AjsZoUtElfJSVHbn60oMwzJJwGxij33VCPdWcuHobTA&oe=6273A8F3" alt="" />
-                <Avatar className="sidebar__avatar" src={user?.photoUrl}>{user?.displayName[0]}</Avatar>
+                <Avatar className="sidebar__avatar" src={user?.photoUrl} rel="noreferer">{user?.displayName[0]}</Avatar>
                 <h2>{user.displayName}</h2>
                 <h4>{user.email}</h4>
             </div>
